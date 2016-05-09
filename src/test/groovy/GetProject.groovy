@@ -22,7 +22,7 @@ class GetProject extends Specification {
 
 		then:
 		response.status == 200
-		response.data.Content == "myProject0"
+		response.data.Content == "newContent"
 		response.data.Icon == 4
 		response.data.Deleted == false
 		
